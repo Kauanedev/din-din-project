@@ -1,0 +1,13 @@
+.container-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width:  100vw;
+    height: (100vh-118px);
+    background-color: white;
+    border-radius: 60px 60px 0px 0px;
+
+    position: absolute;
+    margin-top: -218px;
+}   

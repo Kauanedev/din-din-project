@@ -1,0 +1,67 @@
+.container-page {
+    background-size: 100%;
+    background-image: url("../../assets/background1.jpg");
+    background-repeat: no-repeat;
+}
+
+.container-login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin-right: 150px;
+
+    width: 614px;
+}
+
+
+
+.description h1 {
+
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description h1 strong {
+    color: #7978D9;
+}
+
+
+.description p {
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container-buttom {
+    width: 284px;
+    height: 48px;
+    margin-top: 8px;
+
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    background-color: #7978D9;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

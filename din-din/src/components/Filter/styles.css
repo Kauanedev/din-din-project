@@ -1,0 +1,90 @@
+.container-filter {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    
+    width: 960px;
+    height: 205px; 
+    margin-bottom: 50px;
+
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+}
+
+.categoria-filter{
+
+    margin-top: 32px;
+    margin-left: 36px;
+    margin-bottom: 20px;
+    
+    color: #B9B9B9;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.filters{
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    height: 95px;
+    gap: 13px;
+
+}
+
+.filter-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-left: 9px;
+    padding-right: 12px;
+   
+    width: 80px;
+    height: 20px; 
+
+    margin-left: 36px;
+    
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Rubik;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    cursor: pointer;
+}
+
+.filter-box:hover {
+    opacity: 0.8;
+}
+
+.blue{
+    background: #7978D9;
+    color: white;
+}
+
+.white{
+    background: #FAFAFA;
+    color: black    ;
+}
+
+.buttons-filter button {
+    border: none;
+    width: 98px;
+    height: 30px;
+    margin-left: 36px;
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+}

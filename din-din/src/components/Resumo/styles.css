@@ -1,0 +1,90 @@
+.container-resumo {
+    margin-top: 130px;
+    margin-right: 100px;
+}
+
+.resumo {
+    width: 230px;
+    height: 250px;
+
+    display: flex;  
+    flex-direction: column;
+
+
+
+    border-radius: 10px;
+    background: rgba(250, 250, 250, 1);
+    box-shadow: 0 8px 8px 0 rgb(0, 0, 0, 0.2);
+}
+
+.resumo h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+
+    margin: 25px;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.gasto,
+.lucro,
+.saldo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 10px;
+}
+
+.lucro,
+.gasto,
+.saldo span {
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.gasto {
+    border-bottom: 1px solid lightgray;
+}
+
+.lucro span {
+    color: rgba(100, 95, 251, 1);
+}
+
+.gasto span {
+    color: rgba(250, 140, 16, 1);
+}
+
+.saldo span {
+    color: rgba(58, 159, 241, 1);
+}
+
+
+.btn-resumo {
+    width: 230px;
+    height: 42px;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+
+    margin-top: 20px;
+
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: rgba(121, 120, 217, 1);
+    cursor: pointer;
+}
+

@@ -1,0 +1,56 @@
+.container-header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+
+
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+}
+
+.logo {
+    width: 169px;
+    height: 45px;
+
+    margin-top: 41px;
+    padding-left: 100px;
+    padding-bottom: 250px
+}
+
+.container-logout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 118px;
+    margin-right: 100px;
+
+    gap: 15px;
+}
+
+.profile {
+    height: 56px;
+    width: 56px;
+    cursor: pointer;
+}
+
+
+.profile:hover, .logOut:hover {
+    opacity: 0.8;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logOut{
+    width: 22px;
+    height: 27.5px;
+    cursor: pointer;
+}
+
