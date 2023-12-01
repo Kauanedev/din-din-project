@@ -1,6 +1,9 @@
-.logo {
-    margin-top: 41px;
-    padding-left: 100px;
-    width: 169px;
-    height: 45px;
+.logo-headers {
+    width: 10.5rem;
+    height: 2.8rem;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 3rem;
 }

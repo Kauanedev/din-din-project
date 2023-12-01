@@ -1,57 +1,58 @@
-import { useNavigate } from 'react-router-dom';
+import {useState} from 'react';
+import {useNavigate} from 'react-router-dom';
 import './styles.css';
-import { useState } from 'react';
 
 
-export default function FormsLogin ({loginConfirm, setLoginConfirm}){
+export default function FormsLogin({loginConfirm, setLoginConfirm}) {
     const users = JSON.parse(localStorage.getItem('users') || '[]');
-   
+
     const userVerification = (email, password) => {
-        return users.find((user) => 
+        return users.find((user) =>
             user.email === email && user.password === password
         );
     };
 
-    
+
     const navigate = useNavigate();
     const [error, setError] = useState('');
-    
 
-    function handleSubmit (e){
+
+    function handleSubmit(e) {
         e.preventDefault();
         const authenticatedUser = userVerification(loginConfirm.email, loginConfirm.password);
-        setError('');        
-        if(!loginConfirm.email || !loginConfirm.password){
+        setError('');
+        if (!loginConfirm.email || !loginConfirm.password) {
             setError('Deve ser informado email e senha para continuar')
         }
-        else if(authenticatedUser){
-        localStorage.setItem("isAuthenticated", true);
-        localStorage.setItem('loggedUser', JSON.stringify(authenticatedUser));
+        else if (authenticatedUser) {
+            localStorage.setItem("isAuthenticated", true);
+            localStorage.setItem('loggedUser', JSON.stringify(authenticatedUser));
             setTimeout(() => {
                 navigate('/home');
                 setError('')
-                setLoginConfirm({ 
+                setLoginConfirm({
                     email: '',
                     password: ''
                 })
             }, 1000);
         }
-        else{
+        else {
             setError('Email e/ou senha incorreto(s)')
         }
     }
     function handleChangeForm(e) {
         const value = e.target.value;
-        setLoginConfirm ({ ...loginConfirm, [e.target.name]: value});
+        setLoginConfirm({...loginConfirm, [e.target.name]: value});
     }
 
-    return (   
+    return (
+        <div className='container-login'>
             <form onSubmit={handleSubmit} >
                 <h2>Login</h2>
                 <div>
                     <p>E-mail</p>
-                    <input 
-                        type="text" 
+                    <input
+                        type="text"
                         placeholder='Digite seu E-mail'
                         value={loginConfirm.email}
                         name='email'
@@ -60,8 +61,8 @@ export default function FormsLogin ({loginConfirm, setLoginConfirm}){
                 </div>
                 <div>
                     <p>Password</p>
-                    <input 
-                        type="password" 
+                    <input
+                        type="password"
                         placeholder='Digite sua senha'
                         value={loginConfirm.password}
                         name='password'
@@ -69,10 +70,12 @@ export default function FormsLogin ({loginConfirm, setLoginConfirm}){
                     />
                 </div>
                 <div className='container-button'>
-                    <button type='submit'>Entrar</button> 
-                    {error &&  <span className='error'>{error}</span>}  
-                </div>           
-        
+                    <button type='submit'>Entrar</button>
+                    {error && <span className='error'>{error}</span>}
+                </div>
+
             </form>
-    ) 
+        </div>
+
+    )
 }

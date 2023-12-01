@@ -1,18 +1,55 @@
+.container-login {
+    width: 30rem;
+    height: 33rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    margin-bottom: 10rem;
+    margin-left: 18rem;
+}
+
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 
-    margin-top: -200px;
+    margin-top: 16rem;
 
     background-color: white;
 }
 
+
+form button {
+    color: #FFF;
+    text-align: center;
+    font-family: '' Rubik',sans-serif', sans-serif;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    width: 28rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 0.3rem;
+    background: #7978D9;
+    cursor: pointer;
+}
+
+
 form h2 {
+    width: 5.3125rem;
+    height: 2rem;
+    flex-shrink: 0;
+
     color: #7978D9;
     font-family: 'Rubik', sans-serif;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -21,38 +58,19 @@ form h2 {
 form div p {
     color: #484848;
     font-family: 'Rubik', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 5px 0;
+
+    margin: 0.3rem 0;
+
 }
 
 form div input {
+    width: 28.0625rem;
+    height: 3.9375rem;
 
-    font-size: 22px;
-    width: 449px;
-    height: 48px;
-
-    border-radius: 5px;
-    border: 1px solid #555;
-
-}
-
-form button {
-    color: #FFF;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-
-    width: 449px;
-    height: 48px;
-
-    border: none;
-    border-radius: 5px;
-    background: #7978D9;
-    cursor: pointer;
+    border-radius: 0.3rem;
+    border: 0.063rem solid #555;
 }

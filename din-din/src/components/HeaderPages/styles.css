@@ -7,7 +7,7 @@
     background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
 }
 
-.logo {
+.logo-headers-page {
     width: 169px;
     height: 45px;
 
@@ -34,7 +34,8 @@
 }
 
 
-.profile:hover, .logOut:hover {
+.profile:hover,
+.logOut:hover {
     opacity: 0.8;
 }
 
@@ -48,9 +49,8 @@ h3 {
     line-height: normal;
 }
 
-.logOut{
+.logOut {
     width: 22px;
     height: 27.5px;
     cursor: pointer;
 }
-

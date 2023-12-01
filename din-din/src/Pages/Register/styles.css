@@ -1,8 +1,8 @@
-.container-page{
+.container-RegisterPage {
     width: 100vw;
     height: 100vh;
     background-size: 100%;
-    background-image: url("../../assets/background1.jpg") ;
+    background-image: url("../../assets/background1.jpg");
     background-repeat: no-repeat;
 }
 
@@ -10,4 +10,4 @@
     display: flex;
     justify-content: center;
     margin-top: 63px;
-}   
+}
