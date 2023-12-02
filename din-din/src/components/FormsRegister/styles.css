@@ -1,72 +1,79 @@
-form {
+.container-register {
+    display: flex;
+    justify-content: center;
+}
+
+.container-register form {
+    width: 32rem;
+    height: 45rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: -3rem;
+    margin-left: 3rem;
 
-
-    width: 513px;
-    height: 781px;
     background-color: white;
 }
 
-form h2 {
+.container-register h2 {
     color: #7978D9;
-    font-family: Rubik, sans-serif;
-    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.75rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
-form div p {
+.container-register p {
     margin: 5px 0;
 
     color: #484848;
-    font-family: Rubik, sans-serif;
-    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-form div input {
+.container-register input {
 
     color: #484848;
-    font-family: Rubik, sans-serif;
-    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.37rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 
-    width: 449px;
-    height: 63px;
+    width: 28rem;
+    height: 3.93rem;
 
     border-radius: 5px;
     border: 1px solid #555;
 }
 
 .container-button {
-   
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .container-button button {
 
     color: #FFF;
     text-align: center;
-    font-family: Rubik, sans-serif;
-    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 0.87rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 
-    width: 449px;
-    height: 49px;
+    width: 28rem;
+    height: 2.06rem;
     margin-bottom: 8px;
 
     border: none;
@@ -74,7 +81,7 @@ form div input {
     background-color: #7978D9;
 }
 
-.container-button a{
+.container-button a {
 
     text-decoration: none;
     cursor: pointer;
@@ -82,9 +89,9 @@ form div input {
     color: #7B61FF;
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Lato, sans-serif;
-    font-size: 14px;
-    font-style: normal; 
+    font-family: 'Lato', sans-serif;
+    font-size: 0.87rem;
+    font-style: normal;
     font-weight: 700;
     line-height: normal;
 
@@ -92,10 +99,10 @@ form div input {
 
 .error {
     color: red;
-    margin-top: 5px;
+    margin-top: 0.3rem;
 }
 
 .sucess {
     color: rgb(4, 249, 4);
-    margin-top: 5px;
+    margin-top: 0.3rem;
 }
