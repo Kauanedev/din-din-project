@@ -1,6 +1,6 @@
 .container-login {
-    width: 30rem;
-    height: 33rem;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -11,19 +11,22 @@
     margin-left: 18rem;
 }
 
-form {
+.container-login form {
+    width: 30rem;
+    height: 33rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 
-    margin-top: 16rem;
+    margin-top: 36rem;
 
     background-color: white;
+    border-radius: 0.5rem;
 }
 
 
-form button {
+.container-login button {
     color: #FFF;
     text-align: center;
     font-family: '' Rubik',sans-serif', sans-serif;
@@ -42,7 +45,7 @@ form button {
 }
 
 
-form h2 {
+.container-login h2 {
     width: 5.3125rem;
     height: 2rem;
     flex-shrink: 0;
@@ -55,7 +58,7 @@ form h2 {
     line-height: normal;
 }
 
-form div p {
+.container-login p {
     color: #484848;
     font-family: 'Rubik', sans-serif;
     font-size: 1.125rem;
@@ -67,9 +70,11 @@ form div p {
 
 }
 
-form div input {
-    width: 28.0625rem;
-    height: 3.9375rem;
+.container-login input {
+    width: 28rem;
+    height: 3rem;
+
+    margin: 0.5rem;
 
     border-radius: 0.3rem;
     border: 0.063rem solid #555;
