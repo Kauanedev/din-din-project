@@ -79,6 +79,7 @@ For this project I used :
 Run this code to acess the project before starting:
 ### `cd din-din`
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
