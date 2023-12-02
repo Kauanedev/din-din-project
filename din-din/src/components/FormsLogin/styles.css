@@ -66,7 +66,7 @@
     font-weight: 400;
     line-height: normal;
 
-    margin: 0.3rem 0;
+    margin: 0 0.8rem;
 
 }
 
@@ -78,4 +78,20 @@
 
     border-radius: 0.3rem;
     border: 0.063rem solid #555;
+}
+
+
+
+@media (max-height: 1024px) {
+    .container-login form {
+        margin-top: 46rem;
+        margin-right: 10rem;
+    }
+}
+
+@media (min-height: 1024px) {
+    .container-login form {
+        margin-top: 46rem;
+        margin-right: 10rem;
+    }
 }
