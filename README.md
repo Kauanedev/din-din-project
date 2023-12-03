@@ -6,10 +6,10 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Kauanedev/din-din-project">
   </a>
 
-   <a href="https://Kauanedev/">
+   <a href="https://github.com/Kauanedev/">
     <img alt="Feito por Kauane Santos" src="https://img.shields.io/badge/feito-por%20Kauanedev-D818A5">
    </a>
-      <a href="https://KleberEduardo6/">
+      <a href="https://github.com/KleberEduardo6">
     <img alt="Feito por Kleber Eduardo" src="https://img.shields.io/badge/feito-por%20KleberEduardo6-D818A5">
    </a>
 </p>
