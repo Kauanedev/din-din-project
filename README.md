@@ -9,6 +9,9 @@
    <a href="https://Kauanedev/">
     <img alt="Feito por Kauane Santos" src="https://img.shields.io/badge/feito-por%20Kauanedev-D818A5">
    </a>
+      <a href="https://KleberEduardo6/">
+    <img alt="Feito por Kleber Eduardo" src="https://img.shields.io/badge/feito-por%20KleberEduardo6-D818A5">
+   </a>
 </p>
 
 <h1 align="center">
