@@ -122,11 +122,11 @@ export default function FormsRegister() {
                         onChange={(e) => handleChangeForm(e)}
                     />
                 </div>
-                <div className='container-button' >
+                <div className='container-button-register' >
                     <button type='submit'>Cadastrar </button>
                     <Link to='/login'>Já tem cadastro? Clique aqui!</Link>
-                    {error && <span className='error'>{error}</span>}
-                    {sucess && <span className='sucess'>{sucess}</span>}
+                    {error && <span className='error-register'>{error}</span>}
+                    {sucess && <span className='sucess-register'>{sucess}</span>}
                 </div>
             </form>
         </div>

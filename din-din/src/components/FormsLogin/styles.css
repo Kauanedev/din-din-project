@@ -19,31 +19,38 @@
     align-items: center;
     justify-content: space-evenly;
 
-    margin-top: 36rem;
+    margin-top: 42rem;
+    margin-left: 25rem;
 
     background-color: white;
     border-radius: 0.5rem;
 }
 
+.container-button-login button {
+    width: 28rem;
+    height: 3rem;
 
-.container-login button {
-    color: #FFF;
     text-align: center;
-    font-family: '' Rubik',sans-serif', sans-serif;
-    font-size: 0.85rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 
-    width: 28rem;
-    height: 3rem;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 0.3rem;
     background: #7978D9;
+    color: #FFF;
     cursor: pointer;
 }
 
+.error-login {
+    color: red;
+    margin: 0 3rem;
+}
 
 .container-login h2 {
     width: 5.3125rem;
@@ -81,17 +88,8 @@
 }
 
 
-
-@media (max-height: 1024px) {
-    .container-login form {
-        margin-top: 46rem;
-        margin-right: 10rem;
-    }
-}
-
 @media (min-height: 1024px) {
     .container-login form {
-        margin-top: 46rem;
-        margin-right: 10rem;
+        margin-top: 50rem;
     }
 }
