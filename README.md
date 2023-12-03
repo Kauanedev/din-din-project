@@ -12,7 +12,7 @@
 </p>
 
 <h1 align="center">
-    <img alt="Home Page" title="#HOME PAGE" src="din-din/src/assets/loginPage.jpg" />
+    <img alt="Home Page" title="#LOGIN PAGE" src="din-din/src/assets/loginPage.png"/>
 </h1>
 
 <h4 align="center"> 
@@ -23,22 +23,27 @@
  <a href="#about">About</a> •
  <a href="#functionalities">Functionalities</a> •
  <a href="#tecnologies">Tecnologies</a> •
+ <a href="#see">Launched version</a> •
   <a href="#run">Run the project</a>
 </p>
 
-## 💻 About the project
 <p id="about">
+
+## 💻 About the project
 💸 Din Din- Its a project developed during during the Full Stack Software Development course <a href="https://github.com/cubos-academy" target="_blank">@cubosacademy</a> 
   and initialized with <a href="https://vitejs.dev/" target="_blank">Vite</a>.
 </p>
 
-## ⚙️ Functionalities
 
-<p id="functionalities" align="center"></p>    
-<h1 align="center">
-   <img alt="Home Page" title="#HOME PAGE" src="din-din/src/assets/homePage.jpg" />
-</h1>
+<p id="functionalities" align="center">
+
+## ⚙️ Functionalities
+</p>    
+
 -  Register user</br>
+<h1 align="center">
+   <img alt="Home Page" title="#HOME PAGE" src="din-din/src/assets/registerUser.png" />
+</h1>
 -  LogIn</br>
 -  LogOut</br>
 -  Register Transaction
@@ -55,9 +60,13 @@
 </h1>
 -  List Transactions</br>
 -  Summary and Balance
+<h1 align="center">
+   <img alt="Home Page" title="#HOME PAGE" src="din-din/src/assets/homePage.jpg" />
+</h1>
+
+<p id="tecnologies">
 
 ## 🛠 Tecnologies
-<p id="tecnologies">
 For this project I used :	
 </p>
 
@@ -68,8 +77,16 @@ For this project I used :
 
 <hr>
 
-## 🏃‍♀️ Run the project
+<p id="see">
+
+## 👀 See the launched version:
+
+Open [https://din-din-project.vercel.app/](https://din-din-project.vercel.app/) to view it in your browser.
+</p>
+
 <p id="run">
+
+## 🏃‍♀️ Run the project
  Clone this repository:
 </p>
 
