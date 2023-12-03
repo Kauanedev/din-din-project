@@ -69,13 +69,12 @@ export default function FormsLogin({loginConfirm, setLoginConfirm}) {
                         onChange={(e) => handleChangeForm(e)}
                     />
                 </div>
-                <div className='container-button'>
+                <div className='container-button-login'>
                     <button type='submit'>Entrar</button>
-                    {error && <span className='error'>{error}</span>}
+                    {error && <span className='error-login'>{error}</span>}
                 </div>
 
             </form>
         </div>
-
     )
 }
